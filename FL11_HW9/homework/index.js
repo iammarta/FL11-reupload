@@ -1,4 +1,4 @@
-/*TASK0*/
+//TASK0
 function getNumbers(num){
     let arr = [];
     for(let i=0; i<num.length;i++ ){
@@ -28,7 +28,6 @@ func(arr[i]);
 }
 }
 executeforEach([5, 6, 7, 8, 9], function(el){
-console.log(el) 
 });
 
  //TASK3
