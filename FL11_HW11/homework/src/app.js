@@ -46,7 +46,6 @@ function draggingOver(e) {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
 }
-
 function dropped(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -62,7 +61,6 @@ function dropped(e) {
     source.innerHTML = target.innerHTML;
     target.innerHTML = e.dataTransfer.getData('text/plain');
 }
-
 function editItem() {
     let listItems = document.getElementsByTagName('li'); 
 for (let i = 0; i < listItems.length; i++) {
@@ -73,7 +71,6 @@ for (let i = 0; i < listItems.length; i++) {
 }
     }  
    }
-
 function saveChanges(){
 let myInput = document.getElementById('customInput').value;
 alert(myInput);
